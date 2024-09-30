@@ -22,7 +22,7 @@ for index, todo in enumerate(todos):
         st.rerun()
 
 
-st.text_input(placeholder="Add new todo....",
+st.text_input(label=" ",placeholder="Add new todo....",
               on_change=add_todo, key='new_todo')
 
-st.session_state
+
